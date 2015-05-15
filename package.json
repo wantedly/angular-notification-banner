@@ -1,0 +1,28 @@
+{
+  "name": "angular-notification-banner",
+  "version": "1.0.0",
+  "description": "angular notificatin banner",
+  "main": "js/main.js",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wantedly/angular-notification-banner.git"
+  },
+  "keywords": [
+    "angularjs",
+    "notification"
+  ],
+  "author": "wantedly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wantedly/angular-notification-banner/issues"
+  },
+  "homepage": "https://github.com/wantedly/angular-notification-banner",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.5.1",
+    "load-grunt-tasks": "^0.6.0"
+  }
+}
