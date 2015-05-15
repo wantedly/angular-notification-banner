@@ -35,7 +35,7 @@ WantedlyAngularApp.directive('wtNotificationBanner', [
     return {
       restrict: 'E',
       transclude: true,
-      templateUrl: 'angular/templates/common/notification_banner.html',
+      template: '<div class="wt-notification-banner"><div class="fa fa-remove"></div><div ng-show="!messageTemplate">{{ message }}</div><div ng-transclude></div></div>',
       link: function(scope, elems, attrs) {
         var ANIMATION_END_EVENT, FADEOUT_DELAY_DEFAULT, FADEOUT_DELAY_SLOW, canFadeout, cancelBannerListener, element, fadeout, fadeoutDelay, fadeoutTimer, init, startFadeoutTimer;
         FADEOUT_DELAY_DEFAULT = 5000;
