@@ -1,0 +1,14 @@
+{
+  "name": "angular-notification-banner",
+  "version": "0.0.1",
+  "authors": [
+    "Takayuki Imai <taka@wantedly.com>"
+  ],
+  "description": "angular notification banner",
+  "main": "js/main.js",
+  "keywords": [
+    "angularjs",
+    "notification"
+  ],
+  "license": "MIT"
+}
